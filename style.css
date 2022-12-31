@@ -22,11 +22,34 @@
 .btn:hover {
     background-color: rgb(60, 5, 170);
 }
+.blue {
+    color: #6415FF;
+}
+input {
+    width: 400px;
+    height: 28px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+}
+
 h1 {
-    font-weight: 900;
+    font-weight: 600;
+    font-size: 32px;
 }
 h1:hover {
     color: rgb(100, 21, 255);
+}
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.03);
 }
 
 /* 
@@ -37,7 +60,7 @@ HEADER
 li {
     list-style: none;
 }
-img {
+.site_logo {
     width: 2.5em;
     height: auto;
 }
@@ -66,3 +89,31 @@ li {
 .logo {
     margin-right: 6px;
 }
+
+
+/* 
+
+LANDING
+
+ */
+ .companies_logo {
+    width: 300px !important;
+    height: 24px;
+ }
+
+ .landing_info--wrapper {
+    display: flex;
+ }
+ .landing_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .random_img--wrapper {
+    display: block;
+ }
+ .random_img {
+    width: 500px;
+    height: 500px;
+ }
